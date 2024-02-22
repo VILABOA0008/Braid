@@ -57,7 +57,7 @@ BRAID.txt
         if(modTiempo==false){
             if(posicionTiempo!=posiciones.length-1){
             console.log("slice")
-            posiciones.splice(posicionTiempo)
+            posiciones.splice(posicionTiempo+1)
         }
             posicionTiempo=posiciones.length
             posiciones.push({x: x, y: y,dir:direccion});
